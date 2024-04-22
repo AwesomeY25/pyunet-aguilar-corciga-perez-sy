@@ -23,7 +23,7 @@ class SamplePair:
         self.device     = params.get('device') or 'cuda'
         self.gpu_index  = params.get('gpu_index') or 0
         self.model_type = params.get('model_type') or 'unet'
-        self.models     = params.get('models') or []
+        self.models     = params.get('models') or ['unet_attn_dp','unet_attn_stacked_ghost_irb']
 
         self.in_channels    = params.get('in_channels')
         self.out_channels   = params.get('out_channels')
