@@ -1,0 +1,1 @@
+{"img_width": 128, "img_height": 128, "in_channels": 3, "out_channels": 2, "loss_type": "CE", "model_type": "unet_attn_stacked_ghost_irb", "device": "cuda", "gpu_index": 0, "input_img_dir": "/content/test/images", "input_mask_dir": "/content/test/masks", "models": [{"type": "unet_attn_dp", "file": "/content/unet_attn_dp.pth"}]}
